@@ -9,3 +9,15 @@
 ## Enunciado para Resolução: BeeCrowd -> Dividindo X por Y
 
 ### Nome:Lázaro Antônio Magalski, Adã Cardoso, Vinícius Schefer
+
+
+
+
+## Instrucoes de uso
+
+- Para a utilização correta desse repositorio é necessario ter o java insalado na sua maquina
++ Clone o Repositorio do Github [Link](https://github.com/acarddoso/BeeCrowd--Dividindo-X-por-Y "Github") . 
++ Abra a pasta pelo cmd usando o botão direito do mouse
++ Execute o Comando pelo Cmd: java 
+.\DividirXporY\src\main\java\DividirXporY\App.java
++ Adicione o numero de divisões que deseja e os dois numeros para a divisão            

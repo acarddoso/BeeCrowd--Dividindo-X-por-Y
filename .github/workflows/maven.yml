@@ -5,8 +5,12 @@ name: Java CI with Maven
 
 on:
   push:
+<<<<<<< HEAD
     branches: [ "main" ]
     branches: [ "feature" ]
+=======
+    branches: [ "main" ,"feature"]
+>>>>>>> cc3106fe409b46cbb3b6128f72083092471df5ab
   pull_request:
     branches: [ "main" ]
 
@@ -24,4 +28,8 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
+<<<<<<< HEAD
       run: mvn -B package --file ..\..\DividirXporY\pom.xml
+=======
+      run: mvn -B package --file ..\..\DividirXporY\/pom.xml
+>>>>>>> cc3106fe409b46cbb3b6128f72083092471df5ab

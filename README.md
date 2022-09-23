@@ -6,4 +6,4 @@
 
 BeeCrowd -Dividindo X por Y
 
-Nome:Lázaro Antônio Magalski, Adã Cardoso, Vinícius Schefer;
+Nome:Lázaro Antônio Magalski, Adã Cardoso, Vinícius Schefer

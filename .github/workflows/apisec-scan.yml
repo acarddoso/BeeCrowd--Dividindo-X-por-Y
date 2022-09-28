@@ -1,0 +1,42 @@
+on:
+  push:
+    branches: [main, feature]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '20 14 * * 1'
+jobs:
+  CodeQL-Build:
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+      contents: read
+      actions: read
+      
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [ 'java' ]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Set up java
+        uses: actions/setup-java@v1
+        with:
+          java-version: 11
+          
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v2
+        with:
+          languages: java
+          setup-java-dependencies: false
+          
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v2
+        
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v2
+      
+      

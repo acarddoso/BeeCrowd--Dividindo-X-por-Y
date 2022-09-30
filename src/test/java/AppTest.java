@@ -10,7 +10,7 @@ public class AppTest
 	private App app = new App();
    @Test
    public void calcularValores(){
-		assertThat(app.calculo(8,2), containsString("4.00"));
+		assertThat(app.calculo(8,2), containsString("4,00"));
    }
 
 }

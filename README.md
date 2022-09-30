@@ -16,6 +16,7 @@
 ## Instrucoes de uso
 
 - Para a utilização correta desse repositorio é necessario ter o java insalado na sua maquina
++ Caso seu SO esteja configurado para o brasil, va até src/test/java/AppTes.java e modifique o "." para ",".
 + Clone o Repositorio do Github [Link](https://github.com/acarddoso/BeeCrowd--Dividindo-X-por-Y "Github") . 
 + Abra a pasta pelo cmd usando o botão direito do mouse
 + Execute o Comando pelo Cmd: java src/main/java/DividirXporY/App.java
